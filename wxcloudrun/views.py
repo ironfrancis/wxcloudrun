@@ -11,7 +11,8 @@ def index():
     """
     :return: 返回index页面
     """
-    return render_template('index.html')
+    return "Hello, World!"
+    # return render_template('index.html')
 
 
 @app.route('/api/count', methods=['POST'])
